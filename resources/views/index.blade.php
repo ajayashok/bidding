@@ -23,7 +23,7 @@
       <h3>Quotation</h3>
       <table class="table table-bordered">
         <tr>
-            <th></th>
+            <th class="w-50"></th>
             <th colspan="4">
                 <table class="table m-0" style="table-layout: fixed; width: 100%;">
                     <tr>
@@ -51,7 +51,7 @@
                         <tr>
                             <td>{{$getData['product']->id}}</td>
                             <td><input type="checkbox"></td>
-                            <td class="p-0">{{$getData['product']->product_name}}</td>
+                            <td>{{$getData['product']->product_name}}</td>
                             <td>{{$getData['product']->unit}}</td>
                             <td>1</td>
                         </tr> 
