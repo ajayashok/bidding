@@ -51,7 +51,7 @@
                         <tr>
                             <td>{{$getData['product']->id}}</td>
                             <td><input type="checkbox"></td>
-                            <td>{{$getData['product']->product_name}}</td>
+                            <td class="p-0">{{$getData['product']->product_name}}</td>
                             <td>{{$getData['product']->unit}}</td>
                             <td>1</td>
                         </tr> 
