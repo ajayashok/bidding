@@ -25,7 +25,7 @@
         <tr>
             <th></th>
             <th colspan="4">
-                <table class="table m-0">
+                <table class="table m-0" style="table-layout: fixed; width: 100%;">
                     <tr>
                         @foreach ($getData['product_supplier'] as $supplier)
                             <th>{{ $supplier?->supplier?->name}}
